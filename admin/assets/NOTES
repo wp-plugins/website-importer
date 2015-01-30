@@ -1,0 +1,48 @@
+Phase 1
+X input src xml location
+X plugin options page
+X plugin menu name
+X import images
+X update <img src
+X update links to images
+- handle errors
+X select parent page in options
+X update existing posts
+X import HTML
+X use relative links to html in xml source
+X hierarchy based on XML
+X update relative links
+X ordering based on xml
+X relink to permalink, not post_id
+X Select page template
+
+Phase 2
+X prefer title in xml
+X use categories from xml on page
+- use categories from xml on media
+- use tags from xml on page
+- use tags from xml on media
+- select parent page in xml source
+
+Phase 3
+- import css
+- import javascript
+- re-class body as div
+- identify sections to remove
+- identify sections to rename/reclass
+- use meta tags for excerpt
+X handle import via zip
+
+Phase 4
+X import other file types (pdf, etc)
+- refactor to more OOP structure
+
+
+- change category selection to multiselect dropdown
+
+
+
+ERRORS TO HANDLE:
+ - page template is invalid - to recreate: create page.  Change theme so template is no longer avaialble.  Run import again.
+
+
